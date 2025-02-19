@@ -35,6 +35,9 @@
     flex-direction: column;
     align-items: center;
     background-color: var(--background);
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
+    scroll-snap-type: y mandatory;
   }
 
   body{
